@@ -5,24 +5,24 @@
 # 3. Напишите программу, которая принимает на вход число N и выдаёт последовательность из N членов.
 #     *Пример:*
 #     - Для N = 5: 1, -3, 9, -27, 81
-# N = int(input('Введите число: '))
-# result = 1
-# for i in range(N):
-#     print(result, end=' ')
-#     result *= -3
-# // Вариант решения другой группы
-# n = int(input('input number: '))
-# result = 1
-# for i in range(n):
-#     print(result,end=' ')
-#     result *=-3
+N = int(input('Введите число: '))
+result = 1
+for i in range(N):
+    print(result, end=' ')
+    result *= -3
+#  Вариант решения другой группы
+n = int(input('input number: '))
+result = 1
+for i in range(n):
+    print(result,end=' ')
+    result *=-3
 # 4. Показать числа от -N до N
 
-# from unittest import result
-# N = int(input('Введите число: '))
-# def get_numbers(N):
-#     return [i for i in range(-N, N + 1)] 
-# print(get_numbers(N))
+from unittest import result
+N = int(input('Введите число: '))
+def get_numbers(N):
+    return [i for i in range(-N, N + 1)] 
+print(get_numbers(N))
 
 # 5. Для натурального n создать словарь индекс-значение, состоящий из элементов последовательности 3n + 1.
 #     *Пример:*
